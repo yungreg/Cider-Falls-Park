@@ -1,0 +1,16 @@
+/*
+todo: design the page 
+!lowest priority
+*/
+
+.area-block1, 
+.area-block2, 
+.area-block3, 
+.area-block4, 
+.area-block5, 
+.area-block6 {
+    display: flex;
+    border: 3px double black;
+    padding: 5px;
+    margin: 5px;
+}
