@@ -4,7 +4,7 @@
 *todo: update database to reflect new ERD 
 ! think it thru - why are you exporting all 4 functions? what are they doing/where are they going?   
 */
-
+ 
 const database = {
     currentGuests: [{
         id: 1,

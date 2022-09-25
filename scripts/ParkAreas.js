@@ -23,7 +23,7 @@ export const areaGuestsList = () => {
   }
   return areaTitleHTML
 }
-
+  
 document.addEventListener(
   "click", 
   (clickEvent) => {

@@ -12,7 +12,7 @@ import { servicesAvailable } from "./Services.js";
 import { areaGuestsList } from "./ParkAreas.js";
 
 const mainContainer = document.querySelector("#bodyContent")
-
+ 
 
 /*
 html needs:

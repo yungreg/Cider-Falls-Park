@@ -21,4 +21,4 @@ export const currentGuestsList = () => {
     guestListHTML += "</ul>"
     return guestListHTML
 }
-
+ 
