@@ -1,7 +1,7 @@
 /*
 *todo: import relevant getter fn() 
 *todo: create a variable to store teh getter function and pass into teh function you make
-*todo: make fn() that will interpolate the firstname/lastname as a list item for teh HTML & return that value (doesn't need a param)
+*todo: make fn() that will interpolate the firstname/lastname as a list item for teh HTML & return that value (doesn't need a param) 
 */
 
 import { getCurrentGuests, getParkAreas } from "./Database.js";

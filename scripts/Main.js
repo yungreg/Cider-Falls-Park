@@ -45,4 +45,4 @@ const appHTML = `
 </aside> 
 `
 
-mainContainer.innerHTML = appHTML
+mainContainer.innerHTML = appHTML  

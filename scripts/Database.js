@@ -2,7 +2,7 @@
 *solved @ 3:09pm 9.21.22 todo: -create database here (ask how to split out Bridge Table called area services) 
 *solved todo: -create & export 4 map functions that will make copies of the database objects that can be edited. 
 *todo: update database to reflect new ERD 
-! think it thru - why are you exporting all 4 functions? what are they doing/where are they going? 
+! think it thru - why are you exporting all 4 functions? what are they doing/where are they going?   
 */
 
 const database = {
