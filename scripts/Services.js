@@ -27,7 +27,8 @@ export const servicesAvailable = () => {
 /*
 *todo: create click event for the services list, 
 todo: show what service is in which area. i'll need to refactor the forof on line 40
-!take notes from brewed awakenings on how to incorporate this join table 
+!park areas click event is working.. how can i adapt that click event to this? 
+*!take notes from brewed awakenings on how to incorporate this join table 
 */
 
 document.addEventListener(
@@ -36,14 +37,16 @@ document.addEventListener(
     const itemClicked = clickEvent.target;
     if (itemClicked.id.startsWith("service")) {
       const [, serviceId] = itemClicked.id.split("-");
-      
+      // am I looping through th wrong paart of the database on line 41?
+      //! looks liek lodging, Parking, Info, andf Ziplines wont be clickable now? what did I do...?
       for (const areaService of areaServices) {
         if (parseInt(serviceId) === areaService.areaId) {
-            window.alert(`${parkAreas.areaName} currently supports ${services.name}. How fun!`);
-          // maybe another loop to puyll the services name from services
+            //why are these values undefined?
+            window.alert(`${services.name} is available in ${parkAreas.areaName}. Go try it out!`);
+        
         }
       }
-    }
+    } 
   }
 ); 
     

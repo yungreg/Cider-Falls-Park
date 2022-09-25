@@ -31,10 +31,11 @@ todo: make the services list clickable to show all the areas that support that s
 
 const appHTML = `
 <section class="services-available">
+<h2>Park Services:</h2>
     ${servicesAvailable()}
 </section>
 
-<h2>"Park Areas To Enjoy!"</h2>
+<h2>Park Areas To Enjoy!</h2>
 <article class="areas">
     ${areaGuestsList()}
 </article>

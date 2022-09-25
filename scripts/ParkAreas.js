@@ -28,7 +28,7 @@ document.addEventListener(
   "click", 
   (clickEvent) => {
     const itemClicked = clickEvent.target;
-// ! question: how does .startsWith() get its value? what am i supposed to be passing in as a parameter to help it find what I need it to find
+// *solved: Ross helped with this! question: how does .startsWith() get its value? what am i supposed to be passing in as a parameter to help it find what I need it to find
     if (itemClicked.id.startsWith("specificArea")) {
       const [, areaId] = itemClicked.id.split("-");
 // console.log(areaId)
